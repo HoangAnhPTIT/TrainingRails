@@ -1,5 +1,6 @@
 module Api
     class PlayersController < ApplicationController
+        before_action :authorize_request
         def index
             players = Player.all
             player_show = Array.new
@@ -55,6 +56,7 @@ module Api
             hash = {"id" => player.id, "name" => player.fullname, "point" => player.point, "wincount" => player.wincount, "losecount" => player.losecount}
             hash
         end
+
     end
     
 end

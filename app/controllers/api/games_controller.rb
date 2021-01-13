@@ -1,6 +1,6 @@
 module Api
     class GamesController < ApplicationController
-        
+        before_action :authorize_request
 
         def index
             

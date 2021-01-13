@@ -4777,3 +4777,981 @@ Processing by Api::GamesController#leaderboard as */*
 Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.5ms | Allocations: 888)
 
 
+Started GET "/api/players/" for ::1 at 2021-01-13 09:33:55 +0700
+  [1m[35m (8.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+NoMethodError (undefined method `http_basic_authenticate_with' for ApplicationController:Class):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/api/players_controller.rb:2:in `<module:Api>'
+app/controllers/api/players_controller.rb:1:in `<main>'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:34:36 +0700
+  
+TypeError (superclass must be a Class (Module given)):
+  
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/api/players_controller.rb:2:in `<module:Api>'
+app/controllers/api/players_controller.rb:1:in `<main>'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:34:52 +0700
+  
+NoMethodError (undefined method `base' for ActionController:Module):
+  
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/api/players_controller.rb:2:in `<module:Api>'
+app/controllers/api/players_controller.rb:1:in `<main>'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:35:03 +0700
+  
+NameError (uninitialized constant ActionController::BASIC
+Did you mean?  ActionController::Base):
+  
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/api/players_controller.rb:2:in `<module:Api>'
+app/controllers/api/players_controller.rb:1:in `<main>'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:35:10 +0700
+Processing by Api::PlayersController#index as */*
+Filter chain halted as #<Proc:0x00007f7e60133c20 /home/hoanganh/.ruby/gems/actionpack-6.1.1/lib/action_controller/metal/http_authentication.rb:73> rendered or redirected
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.0ms | Allocations: 853)
+
+
+Started GET "/api/players/" for ::1 at 2021-01-13 09:36:19 +0700
+  
+NameError (uninitialized constant ActionController::Api
+Did you mean?  ActionController::API):
+  
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/api/players_controller.rb:2:in `<module:Api>'
+app/controllers/api/players_controller.rb:1:in `<main>'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:36:25 +0700
+  
+NoMethodError (undefined method `before_filter' for ApplicationController:Class
+Did you mean?  before_action):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/api/players_controller.rb:2:in `<module:Api>'
+app/controllers/api/players_controller.rb:1:in `<main>'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:36:52 +0700
+  
+SyntaxError (/home/hoanganh/environment/TrainingRails/app/controllers/application_controller.rb:9: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/application_controller.rb:9: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:9: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/api/players_controller.rb:2:in `<module:Api>'
+app/controllers/api/players_controller.rb:1:in `<main>'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:37:05 +0700
+  
+NoMethodError (undefined method `before_filter' for ApplicationController:Class
+Did you mean?  before_action):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/api/players_controller.rb:2:in `<module:Api>'
+app/controllers/api/players_controller.rb:1:in `<main>'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:37:24 +0700
+Processing by Api::PlayersController#index as */*
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 1834)
+
+
+  
+NoMethodError (undefined method `authenticate_or_request_with_http_basic' for #<Api::PlayersController:0x00000000011148>):
+  
+app/controllers/application_controller.rb:5:in `http_basic_authenticate'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:37:38 +0700
+Processing by Api::PlayersController#index as */*
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms | Allocations: 1807)
+
+
+  
+NoMethodError (undefined method `authenticate_or_request_with_http_basic' for #<Api::PlayersController:0x00000000012390>):
+  
+app/controllers/application_controller.rb:5:in `http_basic_authenticate'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:38:17 +0700
+Processing by Api::PlayersController#index as */*
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 1805)
+
+
+  
+NoMethodError (undefined method `authenticate_or_request_with_http_basic' for #<Api::PlayersController:0x00000000013600>):
+  
+app/controllers/application_controller.rb:5:in `http_basic_authenticate'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:40:18 +0700
+Processing by Api::PlayersController#index as */*
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 1807)
+
+
+  
+NoMethodError (undefined method `authenticate_or_request_with_http_basic' for #<Api::PlayersController:0x000000000148c0>):
+  
+app/controllers/application_controller.rb:5:in `http_basic_authenticate'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:40:41 +0700
+Processing by Api::PlayersController#index as */*
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 1805)
+
+
+  
+NoMethodError (undefined method `authenticate_or_request_with_http_basic' for #<Api::PlayersController:0x00000000015b58>):
+  
+app/controllers/application_controller.rb:5:in `http_basic_authenticate'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:40:46 +0700
+Processing by Api::PlayersController#index as */*
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms | Allocations: 1805)
+
+
+  
+NoMethodError (undefined method `authenticate_or_request_with_http_basic' for #<Api::PlayersController:0x00000000015bf8>):
+  
+app/controllers/application_controller.rb:5:in `http_basic_authenticate'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:41:19 +0700
+Processing by Api::PlayersController#index as */*
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 1806)
+
+
+  
+NoMethodError (undefined method `authenticate_or_request_with_http_basic' for #<Api::PlayersController:0x00000000016e68>):
+  
+app/controllers/application_controller.rb:5:in `http_basic_authenticate'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:41:31 +0700
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+SyntaxError (/home/hoanganh/environment/TrainingRails/app/controllers/application_controller.rb:10: syntax error, unexpected `end', expecting end-of-input):
+  
+app/controllers/application_controller.rb:10: syntax error, unexpected `end', expecting end-of-input
+app/controllers/application_controller.rb:10: syntax error, unexpected `end', expecting end-of-input
+app/controllers/api/players_controller.rb:2:in `<module:Api>'
+app/controllers/api/players_controller.rb:1:in `<main>'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:41:42 +0700
+Processing by Api::PlayersController#index as */*
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 1865)
+
+
+  
+NoMethodError (undefined method `http_basic_authenticate_with' for #<Api::PlayersController:0x000000000080c0>
+Did you mean?  http_basic_authenticate):
+  
+app/controllers/application_controller.rb:6:in `http_basic_authenticate'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:41:59 +0700
+Processing by Api::PlayersController#index as */*
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 1827)
+
+
+  
+NoMethodError (undefined method `http_basic_authenticate_with' for #<Api::PlayersController:0x00000000009380>
+Did you mean?  http_basic_authenticate):
+  
+app/controllers/application_controller.rb:6:in `http_basic_authenticate'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:43:57 +0700
+Processing by Api::PlayersController#index as */*
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 1827)
+
+
+  
+NoMethodError (undefined method `http_basic_authenticate_with' for #<Api::PlayersController:0x0000000000a618>
+Did you mean?  http_basic_authenticate):
+  
+app/controllers/application_controller.rb:6:in `http_basic_authenticate'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:44:05 +0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Api::PlayersController#index as */*
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms | Allocations: 1872)
+
+
+  
+NoMethodError (undefined method `authenticate_or_request_with_http_basic' for #<Api::PlayersController:0x00000000006ec8>):
+  
+app/controllers/application_controller.rb:7:in `authenticate'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:45:01 +0700
+Processing by Api::PlayersController#index as */*
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 1944)
+
+
+  
+NameError (undefined local variable or method `http_basic_authenticate_with' for #<Api::PlayersController:0x00000000008200>):
+  
+app/controllers/application_controller.rb:7:in `authenticate'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:45:51 +0700
+  
+NoMethodError (undefined method `http_basic_authenticate_with' for Api::PlayersController:Class):
+  
+app/controllers/api/players_controller.rb:3:in `<class:PlayersController>'
+app/controllers/api/players_controller.rb:2:in `<module:Api>'
+app/controllers/api/players_controller.rb:1:in `<main>'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:46:02 +0700
+Processing by Api::PlayersController#index as */*
+Filter chain halted as #<Proc:0x00007f0908a817a0 /home/hoanganh/.ruby/gems/actionpack-6.1.1/lib/action_controller/metal/http_authentication.rb:73> rendered or redirected
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms | Allocations: 853)
+
+
+Started GET "/api/players/" for ::1 at 2021-01-13 09:46:24 +0700
+Processing by Api::PlayersController#index as */*
+  [1m[36mPlayer Load (10.8ms)[0m  [1m[34mSELECT `players`.* FROM `players`[0m
+  ↳ app/controllers/api/players_controller.rb:7:in `index'
+Completed 200 OK in 59ms (Views: 0.4ms | ActiveRecord: 20.2ms | Allocations: 9006)
+
+
+Started GET "/api/players/" for ::1 at 2021-01-13 09:48:43 +0700
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for Api::PlayersController):
+  
+actionpack (6.1.1) lib/abstract_controller/base.rb:160:in `process'
+actionview (6.1.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+activerecord (6.1.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.1) lib/rails/engine.rb:539:in `call'
+puma (5.1.1) lib/puma/configuration.rb:246:in `call'
+puma (5.1.1) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
+puma (5.1.1) lib/puma/server.rb:431:in `process_client'
+puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:48:52 +0700
+  
+SyntaxError (/home/hoanganh/environment/TrainingRails/app/controllers/api/players_controller.rb:70: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/api/players_controller.rb:70: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/api/players_controller.rb:70: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/api/players/" for ::1 at 2021-01-13 09:49:15 +0700
+Processing by Api::PlayersController#index as */*
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms | Allocations: 169)
+
+
+Started GET "/api/players/" for ::1 at 2021-01-13 09:49:38 +0700
+Processing by Api::PlayersController#index as */*
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms | Allocations: 81)
+
+
+Started GET "/api/players/" for ::1 at 2021-01-13 09:49:38 +0700
+Processing by Api::PlayersController#index as */*
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 332)
+
+
+Started GET "/api/players/" for ::1 at 2021-01-13 09:49:43 +0700
+Processing by Api::PlayersController#index as */*
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms | Allocations: 81)
+
+
+Started GET "/api/players/" for ::1 at 2021-01-13 09:49:43 +0700
+Processing by Api::PlayersController#index as */*
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT `players`.* FROM `players`[0m
+  ↳ app/controllers/api/players_controller.rb:11:in `index'
+Completed 200 OK in 27ms (Views: 0.8ms | ActiveRecord: 5.5ms | Allocations: 6284)
+
+
+Started GET "/api/players/" for ::1 at 2021-01-13 09:52:05 +0700
+Processing by Api::PlayersController#index as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 924)
+
+
+Started GET "/api/players/" for ::1 at 2021-01-13 09:52:24 +0700
+Processing by Api::PlayersController#index as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 2)
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 219)
+
+
+Started GET "/api/players/" for ::1 at 2021-01-13 09:52:31 +0700
+Processing by Api::PlayersController#index as */*
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT `players`.* FROM `players`[0m
+  ↳ app/controllers/api/players_controller.rb:11:in `index'
+Completed 200 OK in 24ms (Views: 0.7ms | ActiveRecord: 7.3ms | Allocations: 6028)
+
+
+Started GET "/api/players/" for ::1 at 2021-01-13 10:01:23 +0700
+  
+NameError (undefined local variable or method `hmac' for Api::PlayersController:Class):
+  
+app/controllers/api/players_controller.rb:10:in `<class:PlayersController>'
+app/controllers/api/players_controller.rb:3:in `<module:Api>'
+app/controllers/api/players_controller.rb:1:in `<main>'
+Started GET "/api/players/" for ::1 at 2021-01-13 10:16:44 +0700
+  
+ArgumentError (Before process_action callback :authenticate has not been defined):
+  
+app/controllers/application_controller.rb:4:in `<class:SessionsController>'
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/api/players_controller.rb:2:in `<module:Api>'
+app/controllers/api/players_controller.rb:1:in `<main>'
+Started GET "/api/players/" for ::1 at 2021-01-13 10:18:22 +0700
+  
+SyntaxError (/home/hoanganh/environment/TrainingRails/app/controllers/application_controller.rb:31: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/application_controller.rb:31: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:31: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/api/players_controller.rb:2:in `<module:Api>'
+app/controllers/api/players_controller.rb:1:in `<main>'
+Started GET "/api/players/" for ::1 at 2021-01-13 10:18:51 +0700
+Started GET "/api/players/" for ::1 at 2021-01-13 10:19:34 +0700
+  
+NameError (undefined local variable or method `hmac' for Api::PlayersController:Class):
+  
+app/controllers/api/players_controller.rb:10:in `<class:PlayersController>'
+app/controllers/api/players_controller.rb:3:in `<module:Api>'
+app/controllers/api/players_controller.rb:1:in `<main>'
+Processing by Api::PlayersController#index as */*
+Completed 500 Internal Server Error in 28ms (Allocations: 1864)
+
+
+  
+NoMethodError (undefined method `authenticate_or_request_with_http_token' for #<Api::PlayersController:0x000000000151f8>):
+  
+app/controllers/api/players_controller.rb:66:in `authenticate'
+Started GET "/api/players/" for ::1 at 2021-01-13 10:20:02 +0700
+Processing by Api::PlayersController#index as */*
+Completed 500 Internal Server Error in 43ms (Allocations: 1847)
+
+
+  
+NoMethodError (undefined method `authenticate_or_request_with_http_token' for #<Api::PlayersController:0x000000000152e8>):
+  
+app/controllers/api/players_controller.rb:66:in `authenticate'
+Started GET "/api/players/" for ::1 at 2021-01-13 10:20:15 +0700
+Processing by Api::PlayersController#index as */*
+Completed 500 Internal Server Error in 20ms (Allocations: 1849)
+
+
+  
+NoMethodError (undefined method `authenticate_or_request_with_http_token' for #<Api::PlayersController:0x00000000016558>):
+  
+app/controllers/api/players_controller.rb:66:in `authenticate'
+Started GET "/api/players/" for ::1 at 2021-01-13 10:20:30 +0700
+Processing by Api::PlayersController#index as */*
+Completed 500 Internal Server Error in 18ms (Allocations: 1849)
+
+
+  
+NoMethodError (undefined method `authenticate_or_request_with_http_token' for #<Api::PlayersController:0x00000000017818>):
+  
+app/controllers/api/players_controller.rb:66:in `authenticate'
+Started GET "/api/players/" for ::1 at 2021-01-13 10:20:55 +0700
+Processing by Api::PlayersController#index as */*
+Completed 500 Internal Server Error in 20ms (Views: 0.3ms | Allocations: 1927)
+
+
+  
+NoMethodError (undefined method `auth_present?' for #<Api::PlayersController:0x00000000018b28>):
+  
+app/controllers/application_controller.rb:7:in `current_user'
+app/controllers/application_controller.rb:4:in `logged_in?'
+app/controllers/application_controller.rb:16:in `authenticate'
+Started POST "/api/user" for ::1 at 2021-01-13 10:37:53 +0700
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [POST] "/api/user"):
+  
+Started POST "/api/user" for ::1 at 2021-01-13 10:46:24 +0700
+  [1m[35m (7.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [POST] "/api/user"):
+  
+Started POST "/api/user" for ::1 at 2021-01-13 10:47:37 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/api/user"):
+  
+Started POST "/api/users" for ::1 at 2021-01-13 10:48:47 +0700
+  
+SyntaxError (/home/hoanganh/environment/TrainingRails/app/controllers/application_controller.rb:19: syntax error, unexpected `end', expecting end-of-input):
+  
+app/controllers/application_controller.rb:19: syntax error, unexpected `end', expecting end-of-input
+app/controllers/application_controller.rb:19: syntax error, unexpected `end', expecting end-of-input
+app/controllers/api/users_controller.rb:2:in `<module:Api>'
+app/controllers/api/users_controller.rb:1:in `<main>'
+Started POST "/api/users" for ::1 at 2021-01-13 10:49:35 +0700
+  
+SyntaxError (/home/hoanganh/environment/TrainingRails/app/controllers/application_controller.rb:19: syntax error, unexpected `end', expecting end-of-input):
+  
+app/controllers/application_controller.rb:19: syntax error, unexpected `end', expecting end-of-input
+app/controllers/application_controller.rb:19: syntax error, unexpected `end', expecting end-of-input
+app/controllers/api/users_controller.rb:2:in `<module:Api>'
+app/controllers/api/users_controller.rb:1:in `<main>'
+Started POST "/api/users" for ::1 at 2021-01-13 10:51:02 +0700
+  
+NameError (uninitialized constant Api::ApplicationController):
+  
+app/controllers/api/users_controller.rb:2:in `<module:Api>'
+app/controllers/api/users_controller.rb:1:in `<main>'
+Started POST "/api/users" for ::1 at 2021-01-13 10:51:36 +0700
+Processing by Api::UsersController#create as */*
+  Parameters: {"name"=>"user1", "username"=>"username", "email"=>"asd@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 3460)
+
+
+  
+NameError (uninitialized constant User(Table doesn't exist)::AvatarUploader):
+  
+app/models/user.rb:3:in `<class:User>'
+app/models/user.rb:1:in `<main>'
+app/controllers/api/users_controller.rb:19:in `create'
+Started POST "/api/users" for ::1 at 2021-01-13 10:52:10 +0700
+Processing by Api::UsersController#create as */*
+  Parameters: {"name"=>"user1", "username"=>"username", "email"=>"asd@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.9ms | Allocations: 951)
+
+
+  
+ActiveRecord::StatementInvalid (Mysql2::Error: Table 'gameapi_development.users' doesn't exist):
+  
+app/controllers/api/users_controller.rb:19:in `create'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('5928150969696663435', 0)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateUsers (20210113035318)
+  [1m[35m (19.0ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `username` varchar(255), `email` varchar(255), `password_digest` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20210113035318')[0m
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT RELEASE_LOCK('5928150969696663435')[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started POST "/api/users" for ::1 at 2021-01-13 10:54:51 +0700
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+Zeitwerk::NameError (expected file /home/hoanganh/environment/TrainingRails/app/controllers/users_controller.rb to define constant UsersController, but didn't):
+  
+zeitwerk (2.4.2) lib/zeitwerk/loader/callbacks.rb:18:in `on_file_autoloaded'
+zeitwerk (2.4.2) lib/zeitwerk/kernel.rb:27:in `block in require'
+zeitwerk (2.4.2) lib/zeitwerk/kernel.rb:26:in `tap'
+zeitwerk (2.4.2) lib/zeitwerk/kernel.rb:26:in `require'
+activesupport (6.1.1) lib/active_support/inflector/methods.rb:288:in `const_get'
+activesupport (6.1.1) lib/active_support/inflector/methods.rb:288:in `block in constantize'
+activesupport (6.1.1) lib/active_support/inflector/methods.rb:284:in `each'
+activesupport (6.1.1) lib/active_support/inflector/methods.rb:284:in `inject'
+activesupport (6.1.1) lib/active_support/inflector/methods.rb:284:in `constantize'
+activesupport (6.1.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.1.1) lib/action_dispatch/http/request.rb:93:in `controller_class_for'
+actionpack (6.1.1) lib/action_dispatch/request/utils.rb:95:in `action_encoding_template'
+actionpack (6.1.1) lib/action_dispatch/request/utils.rb:83:in `encode'
+actionpack (6.1.1) lib/action_dispatch/request/utils.rb:45:in `set_binary_encoding'
+actionpack (6.1.1) lib/action_dispatch/http/parameters.rb:68:in `path_parameters='
+actionpack (6.1.1) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (6.1.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+activerecord (6.1.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.1) lib/rails/engine.rb:539:in `call'
+puma (5.1.1) lib/puma/configuration.rb:246:in `call'
+puma (5.1.1) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
+puma (5.1.1) lib/puma/server.rb:431:in `process_client'
+puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started POST "/api/users" for ::1 at 2021-01-13 10:55:45 +0700
+Processing by Api::UsersController#create as */*
+  Parameters: {"name"=>"user1", "username"=>"username", "email"=>"asd@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 3294)
+
+
+  
+NameError (uninitialized constant #<Class:0x00007f22b01d1e18>::AvatarUploader):
+  
+app/models/user.rb:3:in `<class:User>'
+app/models/user.rb:1:in `<main>'
+app/controllers/users_controller.rb:19:in `create'
+Started POST "/api/users" for ::1 at 2021-01-13 10:55:58 +0700
+  
+ActionController::RoutingError (uninitialized constant Api::UsersController
+Did you mean?  Api::PlayersController):
+  
+Started POST "/api/users" for ::1 at 2021-01-13 10:56:47 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/api/users"):
+  
+Started POST "/api/user" for ::1 at 2021-01-13 10:56:53 +0700
+  
+ActionController::RoutingError (uninitialized constant Api::UserController
+Did you mean?  UsersController):
+  
+Started POST "/api/user" for ::1 at 2021-01-13 10:57:03 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/api/user"):
+  
+Started POST "/api/users" for ::1 at 2021-01-13 10:57:08 +0700
+Processing by Api::UsersController#create as */*
+  Parameters: {"name"=>"user1", "username"=>"username", "email"=>"asd@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Exists? (2.4ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`email` = 'asd@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'username' LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO `users` (`name`, `username`, `email`, `password_digest`, `created_at`, `updated_at`) VALUES ('user1', 'username', 'asd@gmail.com', '$2a$12$btfMHrU3vs/K7v2o/Y2vaenLag0N6QcwscFCI00eHPTP5xLaWgx.W', '2021-01-13 03:57:08.557625', '2021-01-13 03:57:08.557625')[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (4.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 358ms (Views: 0.6ms | ActiveRecord: 14.3ms | Allocations: 8592)
+
+
+Started GET "/api/auth/login" for ::1 at 2021-01-13 10:58:09 +0700
+  
+ActionController::RoutingError (uninitialized constant Api::ApplicationController):
+  
+Started POST "/api/auth/login" for ::1 at 2021-01-13 10:58:31 +0700
+Processing by Api::AuthenticationController#login as */*
+  Parameters: {"email"=>"asd@gmail.com", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'asd@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/api/authentication_controller.rb:7:in `login'
+Completed 500 Internal Server Error in 300ms (ActiveRecord: 0.6ms | Allocations: 2545)
+
+
+  
+NameError (uninitialized constant Api::AuthenticationController::JsonWebToken):
+  
+app/controllers/api/authentication_controller.rb:9:in `login'
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:02:59 +0700
+Processing by Api::AuthenticationController#login as */*
+  Parameters: {"email"=>"asd@gmail.com", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (3.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'asd@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/api/authentication_controller.rb:7:in `login'
+Completed 500 Internal Server Error in 314ms (ActiveRecord: 10.2ms | Allocations: 6346)
+
+
+  
+NameError (undefined local variable or method `token' for #<Api::AuthenticationController:0x0000000000e3f8>):
+  
+app/controllers/api/authentication_controller.rb:11:in `login'
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:03:19 +0700
+Processing by Api::AuthenticationController#login as */*
+  Parameters: {"email"=>"asd@gmail.com", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'asd@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/api/authentication_controller.rb:7:in `login'
+Completed 500 Internal Server Error in 307ms (ActiveRecord: 5.4ms | Allocations: 6188)
+
+
+  
+NameError (uninitialized constant Api::AuthenticationController::JsonWebToken):
+  
+app/controllers/api/authentication_controller.rb:9:in `login'
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:14:25 +0700
+Processing by Api::AuthenticationController#login as */*
+  Parameters: {"email"=>"asd@gmail.com", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'asd@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/api/authentication_controller.rb:7:in `login'
+Completed 500 Internal Server Error in 295ms (ActiveRecord: 0.9ms | Allocations: 2419)
+
+
+  
+NameError (uninitialized constant Api::AuthenticationController::JsonWebToken):
+  
+app/controllers/api/authentication_controller.rb:9:in `login'
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:15:52 +0700
+  
+NameError (uninitialized constant JsonWebToken):
+  
+app/controllers/api/authentication_controller.rb:1:in `<main>'
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:17:10 +0700
+  
+NameError (undefined local variable or method `json_web_token' for main:Object):
+  
+app/controllers/api/authentication_controller.rb:1:in `<main>'
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:17:25 +0700
+  
+NameError (undefined local variable or method `json_web_token' for Api::AuthenticationController:Class):
+  
+app/controllers/api/authentication_controller.rb:4:in `<class:AuthenticationController>'
+app/controllers/api/authentication_controller.rb:3:in `<module:Api>'
+app/controllers/api/authentication_controller.rb:2:in `<main>'
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:17:32 +0700
+  
+NameError (undefined local variable or method `json_web_token' for Api:Module):
+  
+app/controllers/api/authentication_controller.rb:3:in `<module:Api>'
+app/controllers/api/authentication_controller.rb:2:in `<main>'
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:17:41 +0700
+  
+NameError (undefined local variable or method `json_web_token' for main:Object):
+  
+app/controllers/api/authentication_controller.rb:1:in `<main>'
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:17:50 +0700
+  
+NameError (undefined local variable or method `lib' for main:Object):
+  
+app/controllers/api/authentication_controller.rb:1:in `<main>'
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:18:34 +0700
+  
+NameError (uninitialized constant JsonWebToken):
+  
+app/controllers/api/authentication_controller.rb:1:in `<main>'
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:23:09 +0700
+Processing by Api::AuthenticationController#login as */*
+  Parameters: {"email"=>"asd@gmail.com", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'asd@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/api/authentication_controller.rb:11:in `login'
+Completed 500 Internal Server Error in 304ms (ActiveRecord: 5.7ms | Allocations: 6901)
+
+
+  
+NameError (uninitialized constant Api::AuthenticationController::JsonWebToken):
+  
+app/controllers/api/authentication_controller.rb:13:in `login'
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:25:37 +0700
+Processing by Api::AuthenticationController#login as */*
+  Parameters: {"email"=>"asd@gmail.com", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'asd@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/api/authentication_controller.rb:11:in `login'
+Completed 500 Internal Server Error in 295ms (ActiveRecord: 0.6ms | Allocations: 2315)
+
+
+  
+NameError (uninitialized constant Api::AuthenticationController::JsonWebToken):
+  
+app/controllers/api/authentication_controller.rb:13:in `login'
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:25:49 +0700
+Processing by Api::AuthenticationController#login as */*
+  Parameters: {"email"=>"asd@gmail.com", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'asd@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/api/authentication_controller.rb:11:in `login'
+Completed 500 Internal Server Error in 309ms (ActiveRecord: 0.5ms | Allocations: 2300)
+
+
+  
+NameError (uninitialized constant Api::AuthenticationController::JsonWebToken):
+  
+app/controllers/api/authentication_controller.rb:13:in `login'
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:26:03 +0700
+Processing by Api::AuthenticationController#login as */*
+  Parameters: {"email"=>"asd@gmail.com", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'asd@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/api/authentication_controller.rb:11:in `login'
+Completed 500 Internal Server Error in 292ms (ActiveRecord: 0.4ms | Allocations: 2300)
+
+
+  
+NameError (uninitialized constant Api::AuthenticationController::JsonWebToken):
+  
+app/controllers/api/authentication_controller.rb:13:in `login'
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:26:06 +0700
+Processing by Api::AuthenticationController#login as */*
+  Parameters: {"email"=>"asd@gmail.com", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'asd@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/api/authentication_controller.rb:11:in `login'
+Completed 500 Internal Server Error in 307ms (ActiveRecord: 0.5ms | Allocations: 2300)
+
+
+  
+NameError (uninitialized constant Api::AuthenticationController::JsonWebToken):
+  
+app/controllers/api/authentication_controller.rb:13:in `login'
+Started GET "/api/games/14" for ::1 at 2021-01-13 11:27:03 +0700
+Processing by Api::GamesController#show as */*
+  Parameters: {"id"=>"14"}
+  [1m[36mGame Load (1.5ms)[0m  [1m[34mSELECT `games`.* FROM `games` WHERE `games`.`id` = 14 LIMIT 1[0m
+  ↳ app/controllers/api/games_controller.rb:92:in `show'
+  [1m[36mPlayer Load (1.6ms)[0m  [1m[34mSELECT `players`.* FROM `players` WHERE `players`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/api/games_controller.rb:160:in `to_show'
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT `players`.* FROM `players` WHERE `players`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/api/games_controller.rb:161:in `to_show'
+  [1m[36mLog Load (1.5ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` ORDER BY created_at DESC LIMIT 1[0m
+  ↳ app/controllers/api/games_controller.rb:165:in `to_show'
+  [1m[36mCACHE Log Load (0.0ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` ORDER BY created_at DESC LIMIT 1[0m
+  ↳ app/controllers/api/games_controller.rb:174:in `to_show'
+Completed 200 OK in 61ms (Views: 0.3ms | ActiveRecord: 15.2ms | Allocations: 15702)
+
+
+Started GET "/api/games/14" for ::1 at 2021-01-13 11:28:33 +0700
+Processing by Api::GamesController#show as */*
+  Parameters: {"id"=>"14"}
+  [1m[36mGame Load (0.4ms)[0m  [1m[34mSELECT `games`.* FROM `games` WHERE `games`.`id` = 14 LIMIT 1[0m
+  ↳ app/controllers/api/games_controller.rb:92:in `show'
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT `players`.* FROM `players` WHERE `players`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/api/games_controller.rb:160:in `to_show'
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT `players`.* FROM `players` WHERE `players`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/api/games_controller.rb:161:in `to_show'
+  [1m[36mLog Load (0.5ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` ORDER BY created_at DESC LIMIT 1[0m
+  ↳ app/controllers/api/games_controller.rb:165:in `to_show'
+  [1m[36mCACHE Log Load (0.0ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` ORDER BY created_at DESC LIMIT 1[0m
+  ↳ app/controllers/api/games_controller.rb:174:in `to_show'
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 2.0ms | Allocations: 2329)
+
+
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:28:35 +0700
+Processing by Api::AuthenticationController#login as */*
+  Parameters: {"email"=>"asd@gmail.com", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'asd@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/api/authentication_controller.rb:11:in `login'
+Completed 500 Internal Server Error in 294ms (ActiveRecord: 0.5ms | Allocations: 2301)
+
+
+  
+NameError (uninitialized constant Api::AuthenticationController::JsonWebToken):
+  
+app/controllers/api/authentication_controller.rb:13:in `login'
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:49:10 +0700
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Api::AuthenticationController#login as */*
+  Parameters: {"email"=>"asd@gmail.com", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'asd@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/api/authentication_controller.rb:11:in `login'
+Completed 200 OK in 339ms (Views: 0.4ms | ActiveRecord: 4.7ms | Allocations: 8437)
+
+
+Started GET "/api/users" for ::1 at 2021-01-13 11:49:43 +0700
+  
+Zeitwerk::NameError (expected file /home/hoanganh/environment/TrainingRails/app/controllers/users_controller.rb to define constant UsersController, but didn't):
+  
+zeitwerk (2.4.2) lib/zeitwerk/loader/callbacks.rb:18:in `on_file_autoloaded'
+zeitwerk (2.4.2) lib/zeitwerk/kernel.rb:27:in `block in require'
+zeitwerk (2.4.2) lib/zeitwerk/kernel.rb:26:in `tap'
+zeitwerk (2.4.2) lib/zeitwerk/kernel.rb:26:in `require'
+activesupport (6.1.1) lib/active_support/inflector/methods.rb:288:in `const_get'
+activesupport (6.1.1) lib/active_support/inflector/methods.rb:288:in `block in constantize'
+activesupport (6.1.1) lib/active_support/inflector/methods.rb:284:in `each'
+activesupport (6.1.1) lib/active_support/inflector/methods.rb:284:in `inject'
+activesupport (6.1.1) lib/active_support/inflector/methods.rb:284:in `constantize'
+activesupport (6.1.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.1.1) lib/action_dispatch/http/request.rb:93:in `controller_class_for'
+actionpack (6.1.1) lib/action_dispatch/request/utils.rb:95:in `action_encoding_template'
+actionpack (6.1.1) lib/action_dispatch/request/utils.rb:83:in `encode'
+actionpack (6.1.1) lib/action_dispatch/request/utils.rb:45:in `set_binary_encoding'
+actionpack (6.1.1) lib/action_dispatch/http/parameters.rb:68:in `path_parameters='
+actionpack (6.1.1) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (6.1.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+activerecord (6.1.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.1) lib/rails/engine.rb:539:in `call'
+puma (5.1.1) lib/puma/configuration.rb:246:in `call'
+puma (5.1.1) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
+puma (5.1.1) lib/puma/server.rb:431:in `process_client'
+puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started POST "/api/users" for ::1 at 2021-01-13 11:49:56 +0700
+Processing by Api::UsersController#create as */*
+  Parameters: {"name"=>"user1", "username"=>"username", "email"=>"asd@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`email` = 'asd@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'username' LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 422 Unprocessable Entity in 315ms (Views: 0.3ms | ActiveRecord: 1.5ms | Allocations: 6332)
+
+
+Started GET "/api/users" for ::1 at 2021-01-13 11:50:06 +0700
+Processing by Api::UsersController#index as */*
+  Parameters: {"name"=>"user1", "username"=>"username", "email"=>"asd@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}
+Filter chain halted as :authorize_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 113)
+
+
+Started GET "/api/users" for ::1 at 2021-01-13 11:50:09 +0700
+Processing by Api::UsersController#index as */*
+  Parameters: {"name"=>"user1", "username"=>"username", "email"=>"asd@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}
+Filter chain halted as :authorize_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 112)
+
+
+Started GET "/api/users" for ::1 at 2021-01-13 11:50:31 +0700
+Processing by Api::UsersController#index as */*
+  Parameters: {"name"=>"user1", "username"=>"username", "email"=>"asd@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "text/plain"=>[""]}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:11:in `authorize_request'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/controllers/users_controller.rb:9:in `index'
+Completed 200 OK in 6ms (Views: 2.3ms | ActiveRecord: 0.9ms | Allocations: 1420)
+
+
+Started GET "/api/players/" for ::1 at 2021-01-13 11:51:27 +0700
+Processing by Api::PlayersController#index as */*
+Filter chain halted as :authorize_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 184)
+
+
+Started GET "/api/players/" for ::1 at 2021-01-13 11:52:01 +0700
+Processing by Api::PlayersController#index as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:11:in `authorize_request'
+  [1m[36mPlayer Load (0.7ms)[0m  [1m[34mSELECT `players`.* FROM `players`[0m
+  ↳ app/controllers/api/players_controller.rb:9:in `index'
+Completed 200 OK in 60ms (Views: 0.3ms | ActiveRecord: 10.3ms | Allocations: 12355)
+
+
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:55:03 +0700
+Processing by Api::AuthenticationController#login as */*
+  Parameters: {"username"=>"hoanganh", "password"=>"[FILTERED]"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT `players`.* FROM `players` WHERE `players`.`username` = 'hoanganh' LIMIT 1[0m
+  ↳ app/controllers/api/authentication_controller.rb:11:in `login'
+Completed 401 Unauthorized in 9ms (Views: 0.2ms | ActiveRecord: 2.6ms | Allocations: 1942)
+
+
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:55:16 +0700
+Processing by Api::AuthenticationController#login as */*
+  Parameters: {"username"=>"hoanganh", "password"=>"[FILTERED]"}
+  [1m[36mPlayer Load (0.6ms)[0m  [1m[34mSELECT `players`.* FROM `players` WHERE `players`.`username` = 'hoanganh' LIMIT 1[0m
+  ↳ app/controllers/api/authentication_controller.rb:11:in `login'
+Completed 401 Unauthorized in 3ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 523)
+
+
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:55:42 +0700
+Processing by Api::AuthenticationController#login as */*
+  Parameters: {"username"=>"hoanganh", "password"=>"[FILTERED]"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT `players`.* FROM `players` WHERE `players`.`username` = 'hoanganh' LIMIT 1[0m
+  ↳ app/controllers/api/authentication_controller.rb:11:in `login'
+Completed 401 Unauthorized in 9ms (Views: 0.2ms | ActiveRecord: 2.5ms | Allocations: 1950)
+
+
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:56:03 +0700
+Processing by Api::AuthenticationController#login as */*
+  Parameters: {"username"=>"hoanganh", "password"=>"[FILTERED]"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT `players`.* FROM `players` WHERE `players`.`username` = 'hoanganh' LIMIT 1[0m
+  ↳ app/controllers/api/authentication_controller.rb:11:in `login'
+Completed 401 Unauthorized in 51793ms (Views: 0.2ms | ActiveRecord: 2.5ms | Allocations: 82032)
+
+
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:57:01 +0700
+Processing by Api::AuthenticationController#login as */*
+  Parameters: {"username"=>"hoanganh", "password"=>"[FILTERED]"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT `players`.* FROM `players` WHERE `players`.`username` = 'hoanganh' LIMIT 1[0m
+  ↳ app/controllers/api/authentication_controller.rb:11:in `login'
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 6.2ms | Allocations: 8235)
+
+
+  
+NoMethodError (undefined method `authenticate' for #<Player:0x00007fe7b019cdd8>):
+  
+app/controllers/api/authentication_controller.rb:13:in `login'
+Started POST "/api/auth/login" for ::1 at 2021-01-13 11:58:00 +0700
+Processing by Api::AuthenticationController#login as */*
+  Parameters: {"username"=>"hoanganh", "password"=>"[FILTERED]"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT `players`.* FROM `players` WHERE `players`.`username` = 'hoanganh' LIMIT 1[0m
+  ↳ app/controllers/api/authentication_controller.rb:11:in `login'
+Completed 200 OK in 22ms (Views: 0.2ms | ActiveRecord: 6.6ms | Allocations: 5900)
+
+
+Started GET "/api/games/14" for ::1 at 2021-01-13 11:58:15 +0700
+Processing by Api::GamesController#show as */*
+  Parameters: {"id"=>"14"}
+Filter chain halted as :authorize_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 123)
+
+
+Started GET "/api/games/14" for ::1 at 2021-01-13 11:58:36 +0700
+Processing by Api::GamesController#show as */*
+  Parameters: {"id"=>"14"}
+Filter chain halted as :authorize_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 239)
+
+
+Started GET "/api/games/14" for ::1 at 2021-01-13 11:59:58 +0700
+Processing by Api::GamesController#show as */*
+  Parameters: {"id"=>"14"}
+Filter chain halted as :authorize_request rendered or redirected
+Completed 401 Unauthorized in 8ms (Views: 0.2ms | ActiveRecord: 3.8ms | Allocations: 1130)
+
+
+Started GET "/api/games/14" for ::1 at 2021-01-13 12:00:19 +0700
+Processing by Api::GamesController#show as */*
+  Parameters: {"id"=>"14"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT `players`.* FROM `players` WHERE `players`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:11:in `authorize_request'
+  [1m[36mGame Load (0.6ms)[0m  [1m[34mSELECT `games`.* FROM `games` WHERE `games`.`id` = 14 LIMIT 1[0m
+  ↳ app/controllers/api/games_controller.rb:92:in `show'
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT `players`.* FROM `players` WHERE `players`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/api/games_controller.rb:160:in `to_show'
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT `players`.* FROM `players` WHERE `players`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/api/games_controller.rb:161:in `to_show'
+  [1m[36mLog Load (0.7ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` ORDER BY created_at DESC LIMIT 1[0m
+  ↳ app/controllers/api/games_controller.rb:165:in `to_show'
+  [1m[36mCACHE Log Load (0.0ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` ORDER BY created_at DESC LIMIT 1[0m
+  ↳ app/controllers/api/games_controller.rb:174:in `to_show'
+Completed 200 OK in 59ms (Views: 0.4ms | ActiveRecord: 14.4ms | Allocations: 15843)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('5928150969696663435', 0)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateUsers (20210113035318)
+  [1m[35m (11.8ms)[0m  [1m[35mDROP TABLE `users`[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (3.6ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20210113035318'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('5928150969696663435')[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
